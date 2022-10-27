@@ -1,0 +1,16 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int x,y,z,total;
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    
+  cin>>x>>y>>z;
+   total=x+y+z;
+     cout<<total<<endl;
+    return 0;
+}
