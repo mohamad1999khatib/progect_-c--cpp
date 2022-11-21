@@ -1,0 +1,21 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+struct student {
+   int age;
+    string first_name;
+    string last_name;
+    int number;
+};
+int main() {
+    student student_1;
+    cin>>student_1.age>>student_1.first_name>>student_1.last_name>>student_1.number;
+  cout<< student_1.age<<" "<< student_1.first_name<<" "<< student_1.last_name<<" "<< student_1.number<<" ";  
+    
+    
+   return 0;
+}
